@@ -35,7 +35,6 @@ public class PostController
     {
         return repo.findAll();
     }
-    // posts/java
     @GetMapping("/posts/{text}")
     @CrossOrigin
     public List<Post> search(@PathVariable String text)
