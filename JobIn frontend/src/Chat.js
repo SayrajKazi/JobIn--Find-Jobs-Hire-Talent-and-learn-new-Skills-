@@ -5,7 +5,7 @@ import { MainContainer, ChatContainer, MessageList, Message, MessageInput, Typin
 import { Button } from "@mui/material"
 import { Link } from "react-router-dom"
 
-const API_KEY = "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";
+const API_KEY = "";
 // "Explain things like you would to a 10 year old learning how to code."
 const systemMessage = {
   "role": "system", "content": "Explain things like you're talking to a software professional with 3 years of experience."
